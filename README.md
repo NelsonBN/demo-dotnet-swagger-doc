@@ -1,5 +1,6 @@
 # Demo - .NET Documentation in Swagger UI
 
+![Example](./media/demo.png)
 
 ## How can I configure Swagger?
 
