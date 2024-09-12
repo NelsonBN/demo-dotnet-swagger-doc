@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <RootNamespace>Demo.Controllers.Api</RootNamespace>
+    <AssemblyName>Demo.Controllers.Api</AssemblyName>
+    <Version>1.2.3.4</Version>
+
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <!-- DOCUMENTATION -->
+  <PropertyGroup>
+    <DocumentationFile>bin\Demo.Controllers.Api.xml</DocumentationFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn> <!-- Prevent XML documentation warnings -->
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Contracts\Demo.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

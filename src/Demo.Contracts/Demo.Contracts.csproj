@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <RootNamespace>Demo.Contracts</RootNamespace>
+    <AssemblyName>Demo.Contracts</AssemblyName>
+
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <!-- DOCUMENTATION -->
+  <PropertyGroup>
+    <DocumentationFile>bin\Demo.Contracts.xml</DocumentationFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn> <!-- Prevent XML documentation warnings -->
+  </PropertyGroup>
+
+
+</Project>
